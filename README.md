@@ -18,3 +18,7 @@ where
   
   -precise value is not necessary, an approximation will work well
 
+###CITE
+If you find RACER program useful, please cite the RACER paper:
+
+Ilie et. al. [RACER: Rapid and accurate correction of errors in reads](http://bioinformatics.oxfordjournals.org/content/29/19/2490) Bioinformatics, 2013
