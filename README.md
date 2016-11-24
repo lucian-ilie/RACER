@@ -1,2 +1,20 @@
-# RACER
-RACER: Rapid and Accurate Correction of Errors in Reads
+# RACER: Rapid and Accurate Correction of Errors in Reads)
+
+RACER is a C++/OpenMP program that corrects sequencing errors in high-throughput DNA sequencing data, especially designed for the Illumina platform. It does not require any additional software. To run RACER use the command: 
+
+< RACER > < inputReads > < correctedReads > < genomeLength > 
+
+where 
+
+- < RACER > is the executable
+
+- < inputReads > is the input file containin the reads; fasta or fastq
+
+- < correctedReads > will contain the corrected reads at the end
+
+- < genomeLength > is the approximate length of the DNA molecule that originated the reads, such as the genome length in a whole genome sequencing project 
+
+  -if only parts of a genome were sequenced, then only the total length of those parts should be used (instead of the length of the total genome)
+  
+  -precise value is not necessary, an approximation will work well
+
