@@ -2,8 +2,8 @@
 MAKE=make
 CXX=g++ -O3 -Wall -fomit-frame-pointer -fopenmp
 
-RACER: RACER_parallel.cpp
-	$(CXX) RACER_parallel.cpp -o $@
+RACER: RACER.cpp
+	$(CXX) RACER.cpp -o $@
 
 clean:
 	rm -f *.o
