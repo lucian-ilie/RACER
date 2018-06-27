@@ -2,9 +2,9 @@
 MAKE=make
 CXX=g++ -O3 -Wall -fomit-frame-pointer -fopenmp
 
-RACER: RACER.cpp
+racer: RACER.cpp
 	$(CXX) RACER.cpp -o $@
 
 clean:
 	rm -f *.o
-	rm -f RACER
+	rm -f racer
