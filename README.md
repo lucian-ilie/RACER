@@ -7,22 +7,22 @@ INSTALLATION
 
 Installing with Anaconda or Bioconda:
 
-  conda install -c mmolnar racer
+    conda install -c mmolnar racer
   
 Installing from GitHub:
 
-  git clone https://github.com/lucian-ilie/RACER.git
+    git clone https://github.com/lucian-ilie/RACER.git
 
 Then change to the RACER directory and type:
 
-  make
+    make
 
 RUNNING RACER
 =============================================================================
 
 To run RACER use the command: 
 
-  < racer > < inputReads > < correctedReads > < genomeLength > 
+    < racer > < inputReads > < correctedReads > < genomeLength > 
 
 where 
 
