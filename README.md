@@ -1,8 +1,28 @@
-# RACER: Rapid and Accurate Correction of Errors in Reads)
+# RACER: Rapid and Accurate Correction of Errors in Reads
 
-RACER is a C++/OpenMP program that corrects sequencing errors in high-throughput DNA sequencing data, especially designed for the Illumina platform. It does not require any additional software. To run RACER use the command: 
+RACER is a C++/OpenMP program that corrects sequencing errors in high-throughput DNA sequencing data, especially designed for the Illumina platform. It does not require any additional software. 
 
-< racer > < inputReads > < correctedReads > < genomeLength > 
+INSTALLATION
+=============================================================================
+
+Installing with Anaconda or Bioconda:
+
+  conda install -c mmolnar racer
+  
+Installing from GitHub:
+
+  git clone https://github.com/lucian-ilie/RACER.git
+
+Then change to the RACER directory and type:
+
+  make
+
+RUNNING RACER
+=============================================================================
+
+To run RACER use the command: 
+
+  < racer > < inputReads > < correctedReads > < genomeLength > 
 
 where 
 
